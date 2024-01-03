@@ -27,3 +27,6 @@ install:
 
 jdk:
   - oraclejdk11
+
+script:
+- chmod +x gradlew
