@@ -25,10 +25,5 @@ install:
   # If you'd like to skip the install stage entirely, set it to true and nothing will be run.
   - true
 
-script:
-  # By default Travis-ci executes './gradlew build connectedCheck' if no 'script:' section found.
-  - ./gradlew clean build -Pbuild=open
-
-
 jdk:
   - oraclejdk11
