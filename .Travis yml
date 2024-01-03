@@ -33,8 +33,5 @@ script:
   - ./gradlew clean build -Pbuild=open
 
 
-env:
-- GRADLE_OPTS="-Xmx1024m -XX:MaxPermSize=1024m"
-
 jdk:
-  - oraclejdk8
+  - oraclejdk11
