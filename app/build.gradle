@@ -17,12 +17,10 @@ android {
         }
     }
     plugins {
-  ...
   id 'maven-publish'
 }
 
 publishing {
-  ...
 
   repositories {
     maven {
