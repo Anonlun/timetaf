@@ -30,12 +30,10 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 plugins {
-  ...
   id 'maven-publish'
 }
 
 publishing {
-  ...
 
   repositories {
     maven {
