@@ -6,9 +6,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import java.text.NumberFormat;
-
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
 
