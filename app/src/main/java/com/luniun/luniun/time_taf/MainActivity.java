@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Button calculateButton = findViewById(R.id.calculateButton);
 
         SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-        hourlyRate = prefs.getFloat(HOURLY_RATE_KEY, 11.65f);
+        hourlyRate = prefs.getFloat(HOURLY_RATE_KEY, 8.97f);
         dailyBonus = prefs.getFloat(DAILY_BONUS_KEY, 0f);
         totalHoursWorked = prefs.getFloat(TOTAL_HOURS_KEY, 0.0f);
 
