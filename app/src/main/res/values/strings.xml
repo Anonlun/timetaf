@@ -1,7 +1,9 @@
 <resources>
     <string name="app_name">time-taf</string>
     <string name="total_hours_0">Total Hours: 0</string>
-    <string name="monthly_earnings_0_0">Monthly Earnings: $0.0</string>
     <string name="total_hours">Total Hours: %d</string>
     <string name="monthly_earnings">Monthly Earnings: $%.2f</string>
+    <string name="hint_hours_worked">Enter hours worked</string>
+    <string name="button_calculate">Calculate</string>
+    <string name="monthly_salary">Monthly Salary: %s</string>
 </resources>

@@ -1,12 +1,12 @@
-import android.content.Context;
+package com.luniun.luniun.time_taf;
+
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 import java.text.NumberFormat;
 
@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
         Button calculateButton = findViewById(R.id.calculateButton);
 
         SharedPreferences prefs = getSharedPreferences(PREFS_NAME, MODE_PRIVATE);
-        hourlyRate = prefs.getFloat(HOURLY_RATE_KEY, 0.0f);
-        dailyBonus = prefs.getFloat(DAILY_BONUS_KEY, 0.0f);
+        hourlyRate = prefs.getFloat(HOURLY_RATE_KEY, 11.65f);
+        dailyBonus = prefs.getFloat(DAILY_BONUS_KEY, 0f);
         totalHoursWorked = prefs.getFloat(TOTAL_HOURS_KEY, 0.0f);
 
         calculateButton.setOnClickListener(new View.OnClickListener() {
